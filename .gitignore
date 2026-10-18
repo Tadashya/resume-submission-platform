@@ -1,0 +1,20 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.netlify/
+.vercel/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
